@@ -42,6 +42,43 @@ a:hover {
     text-decoration: none;
 }
 
+label {
+    font-size: smaller;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    height: 32px;
+
+    font-size: 16px;
+
+    border: 2px solid var(--light-border-color);
+    border-radius: 4px;
+}
+
+input:focus {
+    outline: 1px solid var(--focus-border-color);
+}
+
+input:invalid {
+    outline: 1px solid red;
+}
+
+#password + p {
+    color: red;
+    margin-top: 4px;
+    visibility: hidden;
+}
+
+#password:invalid + p {
+    visibility: visible;
+}
+
 
 /* Form Styles */
 .form-container {
