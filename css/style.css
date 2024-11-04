@@ -42,6 +42,10 @@ a:hover {
 }
 
 .form-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     height: 100vh;
 
     color: white;
@@ -51,7 +55,7 @@ a:hover {
     background-size: cover;
     background-position: center;
 
-    flex: 2;
+    flex: 3;
 }
 
 .form-sidebar a:hover {
@@ -62,6 +66,32 @@ a:hover {
     color: aqua;
 }
 
+.sidebar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .5);
+
+    width: 100%;
+
+    margin-top: min(128px, 12.5vh);
+    padding: 8px;
+}
+
+.sidebar-img {
+    width: 80px;
+    height: auto;
+}
+
+.sidebar-title {
+    font-family: 'Norse Bold', 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+
+.sidebar-footer {
+    margin-bottom: min(16px, 1vh);
+}
+
 .form-main {
-    flex: 3;
+    flex: 5;
 }
