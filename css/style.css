@@ -27,6 +27,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a:link {
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 
 /* Form Styles */
 .form-container {
@@ -34,7 +42,24 @@ body {
 }
 
 .form-sidebar {
+    height: 100vh;
+
+    color: white;
+
+    background: url("/img/halie-west-25xggax4bSA-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
     flex: 2;
+}
+
+.form-sidebar a:hover {
+    color: aquamarine;
+}
+
+.form-sidebar a:visited {
+    color: aqua;
 }
 
 .form-main {
