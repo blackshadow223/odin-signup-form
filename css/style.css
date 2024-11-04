@@ -1,7 +1,42 @@
+/* Custom Fonts */
+@font-face {
+    font-family: "Norse Bold";
+    src: url("/fonts/norse-bold.woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* CSS Custom Properties, i.e, Variables */
+:root {
+    --body-color: #eee;
+}
+
+
+/* General Styles */
 *,
 *::before,
 *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--body-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Form Styles */
+.form-container {
+    display: flex;
+}
+
+.form-sidebar {
+    flex: 2;
+}
+
+.form-main {
+    flex: 3;
 }
