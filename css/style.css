@@ -1,7 +1,7 @@
 /* Custom Fonts */
 @font-face {
     font-family: "Norse Bold";
-    src: url("/fonts/norse-bold.woff2");
+    src: url("../fonts/norse-bold.woff2");
     font-weight: bold;
     font-style: normal;
 }
@@ -94,7 +94,7 @@ input:invalid {
 
     color: white;
 
-    background: url("/img/halie-west-25xggax4bSA-unsplash.jpg");
+    background: url("../img/halie-west-25xggax4bSA-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
